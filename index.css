@@ -1,4 +1,8 @@
-* {
-	font-family: 'Cardo', serif;
+
+
+#nav {
+	backdrop-filter: blur(5px);
 }
+
+
 

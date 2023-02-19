@@ -12,188 +12,295 @@
 		<title>WebPortfolio</title>
 	</head>
 	<body>
-		<aside class="container-fluid">
-			<!-- start of navbar -->
-			<header class="fixed-top">
-				  <div class="bg-light d-flex align-items-center justify-content-around">
-				    <a class="mr-auto ml-5" href="#">
-				      <img src="https://images.goodsmile.info/cgm/images/product/20190528/8368/60462/medium/3060618ad17438ccb8c91be3f9f9dc97.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-				      James Marvin</a>
-				    <div class="text-info d-flex">
-					    <a class="nav-link" href="#about-me">About Me</a>
-					    <a class="nav-link" href="#project">Projects</a>
-					    <a class="nav-link" href="#tools">Tools</a>
-					    <a class="nav-link" href="#contact">Contact</a>
-					</div>
+		
+		<!-- ========== NAVBAR ========== -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
+			<div class="container-fluid">
+				  <a class="navbar-brand" href="#" id="logo"><img src="./images/jameslogo.png" class="img-fluid" width="70"></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				    <div class="navbar-nav ml-auto">		      
+				      <a class="nav-link" href="#about-me">About Me</a>
+				      <a class="nav-link" href="#tools">My Tools</a>
+				      <a class="nav-link" href="#projects">My Projects</a>
+				      <a class="nav-link" href="#pre-footer">Contact Me</a>
+				    </div>
 				  </div>
-			</header>
-			
-			<!-- end of navbar -->
+			</div>
+		</nav>
+		<!-- ========== END NAVBAR ========= -->
 
 		
-			<!-- Landing Page -->
-			<main id="name" class="container-fluid py-5 min-vh-100">
-				<nav class="text-info min-vh-100 p-3 p-md-5 row">
-					<div class="bg-light pt-3 mt-5 pb-3 col-6">
-						<h1><span class="text-warning">Hi!</span> I'm James Marvin Eronico</h1>
-						<h3 class="text-success">Full-Stack Developer</h3>
-						<small class="text-danger">"A career shifter from the BPO Industry"</small>
-					</div>
-					<div class="bg-light pt-3 pb-3 col-6 align-content-center">
-						<img class="mt-5 mt-md-0 rounded-circle img-fluid" src="./images/james.jpg" width="500">
-					</div>
-				</nav>
-			</main>	
-			<!-- End of Landing Page -->
-
-			<!-- About Me -->
-			<section id="about-me" class="py-5 container-fluid px-1 min-vh-100">
-				<div class="text-info min-vh-100 p-3 p-md-5 row">
-					<div class="bg-light pb-3 col-6">
-						<h3>Quick Introduction:</h3>
-						<ul class="text-success">
-							<p>I am married with two children. I am a civil engineering undergraduate. I started working rather than completing my degree; from the dream of building bridges and buildings, I now aspire to build computer programs.</p>
-						</ul>
-						<h3>Hobbies:</h3>
-						<ul class="text-success">
-							<li>Motorcycle</li>
-							<li>Reading</li>
-							<li>Online Games</li>
-						</ul>
-					</div>
-					<div class="bg-light pb-3 col-6 align-content-center">
-						<div>
-							<div class="">
-								<h3>Work Experience:</h3>
-								<ul class="text-success">
-									<li>Dell Technician</li>
-									<li>Marketing Advisor</li>
-									<li>Shopify Guru</li>
-									<li>Customer Support</li>
-								</ul>
-								<h3>Proficient in:</h3>
-	        		            <img width="50" src="images/logo-html5.png"/>
-	        		            <img width="50" src="images/logo-css3.png"/>
-	        		            <img width="50" src="images/logo-javascript.png"/>
-	        		        </div>
-						</div>
-					</div>
+		<!-- =========== HOME ========== -->
+		<main id="name" class="container-fluid py-5 mb-5">
+			<div class="text-primary p-3 p-md-5 row">
+				<div class="py-5 mt-5 pb-3 col-6">
+					<img src="./images/jameslogo.png" class="img-fluid" width="500"></h1>
+					<h5 class="text-info ml-3 pb-5 mb-5"><img src="./images/devlogo.png" width="30">Full-Stack Developer</h5>
 				</div>
-			<section>
-			<!-- End of About Me -->
+				<div class="col-6 py-5 mb-5">
+					<img id="ako" class="my-5 mx-5 mt-md-0 rounded-circle img-fluid" src="./images/james.jpg" width="350">
+				</div>
+			</div>
+			<div>
+			<a href="./images/jamesresume.pdf" download="./images/jamesresume.pdf" target="_blank">View my CV</a>
+			</div>
+			<div>
+			<a href="#about-me">Check my Intro</a>
+			</div>
+		</main>	
+		<!-- ==========  END HOME ========== -->
 
-			<!-- Project Section -->
-			<section id="project" class="container-fluid p-5 pt-5 min-vh-100">
-				<h2 class="text-center text-info"><strong>Projects I programmed:</strong></h2>
-				<div class="min-vh-100 border border-info">
-					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-					    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-					    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-					  </ol>
-					  <div class="carousel-inner">
-					    <div class="carousel-item active">
-					      <img src="./images/html.png" class="d-block w-100" alt="html">
-					      <div class="carousel-caption d-none d-md-block bg-light">
-					        <h2 class="text-info">"HTML"</h2>
-					        <h4 class="text-success">'Learning the basics'</h4>
-					      </div>
+		<!-- About Me -->
+		<section id="about-me" class="container-fluid py-5 my-5">
+			<div class="text-primary  py-5 my-5 p-3 p-md-5 row">
+				<div class="col-6 py-5 my-5">
+					<h5>Hello, My name is James Marvin Eronico.</h5>
+					<p class="text-info">
+					You may call me James. Due to my interest for construction, I chose to major in civil engineering in college. After my unaccomplished interest in building infrastructures, I am now looking into web development.
+					</p>
+					<p class="text-info">
+					My adventure as a developer just got underway, and I'm currently enrolled at <span><a href="https://zuitt.co/" target="_blank">Zuitt's</a></span> web development bootcamp. I therefore have six years of prior work experience in the BPO Industry. I've worked as a Dell technician, a marketing service advisor, a Shopify guru, and an email system's technical support.
+					</p>
+					<p class="text-info">
+					I've developed a passion for web development while studying this field, and I've come to appreciate the art of creating websites like those in this portfolio. I'm now seeking a developer position to finally kick start my career and learn among professionals.
+					</p>		
+				</div>
+
+				<div class="col-6 py-5 my-5">
+					<h5>These are my current coding languages:</h5>
+					<div class="accordion" id="accordionExample">
+					  <div class="card">
+					    <div class="card-header bg-dark" id="headingOne">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-center text-danger" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					          HTML<img width="50" src="images/logo-html5.png"/>
+					        </button>
+					      </h2>
 					    </div>
-					    <div class="carousel-item">
-					      <img src="./images/css.png" class="d-block w-100" alt="css">
-					      <div class="carousel-caption d-none d-md-block bg-light">
-					        <h2 class="text-info">"CSS"</h2>
-					        <h4 class="text-success">'Learning the styles and colors'</h4>
-					      </div>
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./images/bootstrap.png" class="d-block w-100" alt="bootstrap">
-					      <div class="carousel-caption d-none d-md-block bg-light">
-					        <h2 class="text-info">"Bootstrap"</h2>
-					        <h4 class="text-success">'Learning the grid and flex'</h4>
+
+					    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+					      <div class="card-body">
+					        <div class="progress">
+					          <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+					        </div>
+					        <p class="text-center">Yep! I'm confident to say I've mastered the basics.</p>
 					      </div>
 					    </div>
 					  </div>
-					  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-					    <span class="carousel-control-prev-icon bg-dark w-50" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					  </a>
-					  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-					    <span class="carousel-control-next-icon bg-dark w-50" aria-hidden="true"></span>
-					    <span class="sr-only bg-dark">Next</span>
-					  </a>
-					</div>
+					  <div class="card">
+					    <div class="card-header bg-dark" id="headingTwo">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          CSS  <img width="50" src="images/logo-css3.png"/>
+					        </button>
+					      </h2>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					      <div class="card-body">
+					        <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%
+					      </div>
+					      <p class="text-right">There are still things I need to learn and try.</p>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header bg-dark" id="headingThree">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-center collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					         Javascript<img width="50" src="images/logo-javascript.png"/>
+					        </button>
+					      </h2>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					      <div class="card-body">
+					          <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%
+					        </div>
+					        <p class="text-right">I've got a lot more to explore.</p>
+					      </div>
+					    </div>
+					  </div>
+					</div>					
 				</div>
-				</div>
-			</section>
-			<!-- End of Project -->
+			</div>
+		</section>
+		<!-- End of About Me -->
 
-			<!-- Tools start -->
-			<section id="tools" class="py-5">
-				<div class="container-fluid text-center align-items-center min-vh-100">
-					<h2 class="text-info">Tools I use:</h2>
+		
+
+		<!-- ========== TOOLS ========= -->
+		<section id="tools" class="py-5 my-5">
+				<div class="container-fluid text-center align-items-center py-5 my-5">
+					<h2>These are the coding tools I currently use:</h2>
+					<marquee class="css2" behavior="alternate">I am looking forward to learning and using more tools as I develop my skills in web development.</marquee>
+					
 					    <div class="col mt-5 mb-5 pt-5 pb-5">
 					        <div class="flex-column">
-					        <img width="150" src="images/logo-mongodb.png"/ class="img-fluid">
-					        <img width="150" src="images/logo-nodejs.png"/ class="img-fluid">
-					        <img width="150" src="images/logo-expressjs.png"/ class="img-fluid">
-					        <img width="150" src="images/logo-react.png"/ class="img-fluid">
-					        <img width="150" src="images/logo-heroku.png"/ class="img-fluid">
-					    </div>
-					    <div class="col mt-5 mb-5 pt-5 pb-5">
-					        <img width="150" src="images/logo-git.png"/>
-					        <img width="150" src="images/logo-sublime-text-3.png"/ class="img-fluid">
-					        <img width="150" src="images/logo-postman.png"/ class="img-fluid">
-					        <img width="150" src="images/logo-gitlab-ci-cd.png"/ class="img-fluid">
+					        <a href="https://www.mongodb.com/company" class="text-info" target="_blank">MongoDB<img width="150" src="images/logo-mongodb.png"/ class="img-fluid"></a>
+					        <a href="https://nodejs.org/en/" class="text-info" target="_blank">NodeJS<img width="150" src="images/logo-nodejs.png"/ class="img-fluid"></a>
+					        <a href="https://expressjs.com/" class="text-info" target="_blank">ExpressJS<img width="150" src="images/logo-expressjs.png"/ class="img-fluid"></a>
+					        <a href="https://reactjs.org/" class="text-info" target="_blank">React<img width="150" src="images/logo-react.png"/ class="img-fluid"></a>
+					        <a href="https://www.heroku.com/what" class="text-info" target="_blank">Heroku<img width="150" src="images/logo-heroku.png"/ class="img-fluid"></a>
+					   
+					        <a href="https://git-scm.com/" class="text-info" target="_blank">Git<img width="150" src="images/logo-git.png"/></a>
+					        <a href="https://www.sublimetext.com/" class="text-info" target="_blank">Sublime Text3<img width="150" src="images/logo-sublime-text-3.png"/ class="img-fluid"></a>
+					        <a href="https://www.postman.com/product/what-is-postman/" class="text-info" target="_blank">Postman<img width="150" src="images/logo-postman.png"/ class="img-fluid"></a>
+					        <a href="https://about.gitlab.com/" class="text-info" target="_blank">Gitlab CI/CD<img width="150" src="images/logo-gitlab-ci-cd.png"/ class="img-fluid"></a>
 					        </div>
+					        
 					    </div>
 				</div>
-			</section>
-			<!-- Tools End -->
+		</section>
+		<!-- ========== END TOOLS ========== -->
 
-			<!-- contact me start-->
-			<article id="contact" class="py-5 px-3 text-center mb-5 min-vh-100">
-					<h2 class="text-info">Want to reach out?</h2>
-					<h5 class="text-success">Kindly fill-out the form and send your message. I'll be happy to respond to you as soon as I can!</h5>
-				<div class="row justify-content-center bg-light rounded">	
-						
-				        <div class="col-md-8 col-xl-4 bg-light jusify-content-center py-5 text-success">
-				          <form class="d-flex flex-column">
-				            <label for="Name">Your Full Name</label>
-				            <input type="text" name="fullname" id="fullname" />
+		<!-- ========== PROJECTS ========== -->
+		<main class="container-fluid" id="projects">
+			<h3 class="text-center">My works so far:</h3>
+			<div class="row text-info">
 
-				            <label for="Email">Your Email</label>
-				            <input type="email" name="Email" id="Email" />
-				            <label for="message">Let me know how I can help:</label>
-				            <textarea
-				              name="message"
-				              id="message"
-				              cols="30"
-				              rows="10"
-				            ></textarea>
+				<div class="col-md-6 decoration-none">
+					<div class="bg-dark border border-dark ">
+						<div id="carouselExampleFade" class="carousel-fade" data-ride="carousel">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1.png" class="img-fluid"></a>
+						    </div>
+						    <div class="carousel-item">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1-2.png" class="img-fluid"></a>
+						    </div>
+						  </div>	
+						</div>
+					</div>
+					<p class="text-center">My first front-end coding project, following a design from <span><a href="https://www.figma.com/">Figma</a></span>.</p>		
+				
 
-				            <button
-				              type="button"
-				              class="my-5 bg-light text-success rounded-circle"
-				            >
-				              Contact Me
-				            </button>
-				          </form>
+				
+					<div class="bg-dark border border-dark ">
+						<div id="carouselExampleFade" class="carousel-fade" data-ride="carousel">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1.png" class="img-fluid"></a>
+						    </div>
+						    <div class="carousel-item">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1-2.png" class="img-fluid"></a>
+						    </div>
+						  </div>	
+						</div>
+					</div>
+					<p class="text-center">My first front-end coding project, following a design from <span><a href="https://www.figma.com/">Figma</a></span>.</p>		
+				</div>
+
+				<div class="col-md-6 decoration-none">
+					<div class="bg-dark border border-dark ">
+						<div id="carouselExampleFade" class="carousel-fade" data-ride="carousel">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1.png" class="img-fluid"></a>
+						    </div>
+						    <div class="carousel-item">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1-2.png" class="img-fluid"></a>
+						    </div>
+						  </div>	
+						</div>
+					</div>
+					<p class="text-center">My first front-end coding project, following a design from <span><a href="https://www.figma.com/">Figma</a></span>.</p>		
+				
+
+				
+					<div class="bg-dark border border-dark ">
+						<div id="carouselExampleFade" class="carousel-fade" data-ride="carousel">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1.png" class="img-fluid"></a>
+						    </div>
+						    <div class="carousel-item">
+						      <a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img src="./images/prj1-2.png" class="img-fluid"></a>
+						    </div>
+						  </div>	
+						</div>
+					</div>
+					<p class="text-center">My first front-end coding project, following a design from <span><a href="https://www.figma.com/">Figma</a></span>.</p>		
 				</div>
 
 			
-			</article>
-			<!-- contact me end-->
-			<footer class="container-fluid p-0 m-0">
-				<div class="d-flex bg-light">
-        			<p class="text-danger p-0 m-0">©James Marvin Eronico. <span class="text-info">All Rights Reserved</span></p>
-        			<a href="#" class="ml-auto text-danger p-0 m-0">Back to Top</a>
-		        </div>
-	        </footer>
-	    </aside>
+			</div>
+		</main>
+		<!-- ========== END PROJECTS ========= -->
+
+
+
+
+		<!-- ========== CONTACT ========= -->
+		<article class="container" id="pre-footer">
+			<div class="row justify-content-center">
+	        	<div class="ml-sm-0 ml-md-4 pt-5 mt-5 pl-3 col-12 d-flex flex-column align-items-center">
+	        		<h3 id="contact">Got a Project?</h3>
+	        		<h4>Get in touch, I'll be happy to respond to you as soon as I can. </h4>
+	          		<form class="d-flex flex-column">
+			            <label for="name">Name</label>
+			            <input class="rounded" type="text" name="fullname" id="fullname"/>
+			            <label for="Email">Email Address</label>
+			            <input class="rounded" type="email" name="Email" id="Email" />
+			            <label class="rounded" for="message">Type your message here:</label>
+			            <textarea class="rounded" 
+			              name="message"
+			              id="message"
+			              cols="30"
+			              rows="10"
+			            ></textarea>
+
+			            <button id="button"
+			              type="submit" value="submit" 	class="text-primary mt-4 ml-auto
+			              rounded" target="_blank">
+			              Submit
+			            </button>
+		          	</form>
+				</div>
+		</article>	
+		<!-- ========== END CONTACT ========= -->
+
+		<!-- ========== FOOTER ========= -->
+	<footer class="container-fluid pt-5 mt-5 pb-0 mb-0">
+		<div class="row justify-content-between">
+			<div class="ml-5 mr-5">
+				<p>©James Marvin Eronico</p>
+			</div>
+			<div class="ml-5 mr-5">
+				<a href="https://www.linkedin.com/in/james-marvin-eronico-1a93a5266/"><img src="./images/linkedin.png" width="30" class="img-fluid" target="_blank"></a>
+				
+        	</div>
+        	<div class="ml-5 mr-5">
+				
+				<a href="https://mail.google.com/mail/u/1/?ogbl#inbox"><img src="./images/gmail.png" width="30" class="img-fluid" target="_blank"></a>
+			
+        	</div>
+        	<div class="ml-5 mr-5">
+				
+				
+				<a href="https://www.facebook.com/james.marvin.921230"><img src="./images/fb.png" width="30" class="img-fluid" target="_blank"></a>
+        	</div>
+        	<div class="mr-5">
+				<a href="#">Back to top</a>
+			</div>
+	    </div>
+	</footer>
+	    <!-- ========= END FOOTER ========= -->
+
+	    <!-- ================== JS SCRIPT =================== -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
+
+
 	</body>
 </html>
+
+<!-- https://jameseronico.github.io/1stproject/# -->
+<!-- ©James Marvin Eronico -->
+
+<!-- <div class="col-6 d-flex flex-column py-5 my-5">
+				<a href="https://www.linkedin.com/in/james-marvin-eronico-1a93a5266/"><img src="./images/linkedin.png">Linkedin</a>
+				<a href="https://mail.google.com/mail/u/1/?ogbl#inbox"><img src="./images/gmail.png">Gmail</a>
+				<a href="https://www.facebook.com/james.marvin.921230"><img src="./images/fb.png">Facebook</a>
+	        	</div> -->
