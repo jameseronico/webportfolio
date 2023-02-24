@@ -1,17 +1,17 @@
 * {
 	font-family: 'Montserrat', sans-serif;
-	color: blue;
+	color: #000000;
 }
 
 #nav {
 	backdrop-filter: blur(5px);
 }
 
-
+/* LANDING BUTTONS */
 #CV {
 	padding: 8px 24px;
 	gap: 8px;
-	background: #12C6FF;
+	background: #000000;
 	border-radius: 999px;
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -21,9 +21,10 @@
 #know {
 	padding: 8px 24px;
 	gap: 8px;
-	background: #12C6FF;
+	background: #000000;
 	border-radius: 999px;
 	font-family: 'Montserrat';
 	font-style: normal;
 	text-align: center;
 }
+/* LANDING BUTTONS END */
