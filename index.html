@@ -14,9 +14,8 @@
 	<body>
 		
 		<!-- ========== NAVBAR ========== -->
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
-			<div class="container-fluid">
-				  <a class="navbar-brand text-secondary" href="#" id="logo">JM</a>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top container-fluid" id="nav">
+				  <a class="navbar-brand text-secondary" href="#" id="logo"><img src="./images/navlogo.png" width="50"></a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
@@ -27,8 +26,7 @@
 				      <a class="nav-link" href="#projects">My Projects</a>
 				      <a class="nav-link" href="#pre-footer">Contact Me</a>
 				    </div>
-				  </div>
-			</div>
+				  </div>			
 		</nav>
 		<!-- ========== END NAVBAR ========= -->
 
@@ -55,79 +53,81 @@
 		<!-- ==========  END HOME ========== -->
 
 		<!-- ========== About Me ========== -->
-		<section id="about-me" class="container-fluid py-5 my-5">
-			<div class="text-primary  py-5 my-5 p-3 p-md-5 row">
-				<div class="col-sm-12 col-md-6 py-md-5 my-md-5">
-					<h5>Hello, My name is James Marvin Eronico.</h5>
-					<p class="text-muted">
-					You may call me James. Due to my interest for construction, I chose to major in civil engineering in college. After my unaccomplished interest in building infrastructures, I am now looking into web development.
-					</p>
-					<p class="text-muted">
-					My adventure as a developer just got underway, and I'm currently enrolled at <span><a href="https://zuitt.co/" target="_blank">Zuitt's</a></span> web development bootcamp. I therefore have six years of prior work experience in the BPO Industry. I've worked as a Dell technician, a marketing service advisor, a Shopify guru, and an email system's technical support.
-					</p>
-					<p class="text-muted">
-					I've developed a passion for web development while studying this field, and I've come to appreciate the art of creating websites like those in this portfolio. I'm now seeking a developer position to finally kick start my career and learn among professionals.
-					</p>		
+		<section id="about-me" class="container-fluid pt-md-3 mt-5">
+			<div class="d-flex justify-content-center">
+			 	<img class="rounded-circle img-fluid d-none d-md-block" src="./images/james.jpg" width="300">
+		    </div>
+		    <div class="pt-md-3 pb-3">
+				<h5 class="text-center">Hello, My name is James Marvin Eronico!</h5>
+				<div class="pt-md-3">
+					<p class="text-muted" id="para1">
+							You may call me James. Due to my interest for construction, I chose to major in civil engineering in college. After my unaccomplished interest in building infrastructures, I am now looking into web development.
+							</p>
+							<p class="text-muted">
+							My adventure as a developer just got underway, and I'm currently enrolled at <span><a href="https://zuitt.co/" target="_blank">Zuitt's</a></span> web development bootcamp. I therefore have six years of prior work experience in the BPO Industry. I've worked as a Dell technician, a marketing service advisor, a Shopify guru, and an email system's technical support.
+							</p>
+							<p class="text-muted">
+							I've developed a passion for web development while studying this field, and I've come to appreciate the art of creating websites like those in this portfolio. I'm now seeking a developer position to finally kick start my career and learn among professionals.
+							</p>
 				</div>
+			</div>		
+			<h5 class="d-none d-md-block text-center">These are my current coding languages:</h5>
+			<div class="accordion d-none d-md-block px-5 mx-5 pt-3" id="accordionExample">
+			  <!-- ========== HTML =========== -->
+			  <div class="px-5 mx-5">
+				  <div class="card d-sm-none d-md-block">
+				    <div class="card-header bg-dark" id="headingOne">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link btn-block text-center text-danger" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          HTML<img width="50" src="images/logo-html5.png"/>
+				        </button>
+				      </h2>
+				    </div>
 
-				<div class="col-6 py-md-5 my-md-5">
-					<div class=" pl-5 pr-1 ml-5 mr-1">
-						<img class="rounded-circle img-fluid d-none d-md-block" src="./images/james.jpg">
-					</div>
-					<h5 class="d-none d-md-block">These are my current coding languages:</h5>
-					<div class="accordion d-none d-md-block" id="accordionExample">
-					  <div class="card d-sm-none d-md-block">
-					    <div class="card-header bg-dark" id="headingOne">
-					      <h2 class="mb-0">
-					        <button class="btn btn-link btn-block text-center text-danger" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					          HTML<img width="50" src="images/logo-html5.png"/>
-					        </button>
-					      </h2>
-					    </div>
-
-					    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-					      <div class="card-body">
-					        <div class="progress">
-					          <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
-					        </div>
-					        <p class="text-center">Yep! I'm confident to say I've mastered the basics.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="card">
-					    <div class="card-header bg-dark" id="headingTwo">
-					      <h2 class="mb-0">
-					        <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          CSS  <img width="50" src="images/logo-css3.png"/>
-					        </button>
-					      </h2>
-					    </div>
-					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-					      <div class="card-body">
-					        <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%
-					      </div>
-					      <p class="text-right">There are still things I need to learn and try.</p>
-					    </div>
-					  </div>
-					  <div class="card">
-					    <div class="card-header bg-dark" id="headingThree">
-					      <h2 class="mb-0">
-					        <button class="btn btn-link btn-block text-center collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					         Javascript<img width="50" src="images/logo-javascript.png"/>
-					        </button>
-					      </h2>
-					    </div>
-					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-					      <div class="card-body">
-					          <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%
-					        </div>
-					        <p class="text-right">I've got a lot more to explore.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>					
-				</div>
-			</div>
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <div class="progress">
+				          <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+				        </div>
+				        <p class="text-center">Yep! I'm confident to say I've mastered the basics.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <!-- ========== CSS ========== -->
+				  <div class="card">
+				    <div class="card-header bg-dark" id="headingTwo">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          CSS  <img width="50" src="images/logo-css3.png"/>
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%
+				      </div>
+				      <p class="text-right">There are still things I need to learn and try.</p>
+				    </div>
+				  </div>
+				  <!-- =========== Javascript ========== -->
+				  <div class="card">
+				    <div class="card-header bg-dark" id="headingThree">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link btn-block text-center collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				         Javascript<img width="50" src="images/logo-javascript.png"/>
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				      <div class="card-body">
+				          <div class="progress-bar progress-bar-striped progress-bar-animated rounded" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%
+				        </div>
+				        <p class="text-right">I've got a lot more to explore.</p>
+				      </div>
+				    </div>
+				  </div>
+			  </div>
+			</div>		
 		</section>
 		<!--========== End of About Me ==========-->
 
@@ -163,7 +163,7 @@
 			<marquee class="css2 text-secondary" behavior="scroll" direction="left">Feel free to check my works - you may click each one to scan through them.</marquee>
 		    <div class="container px-4 px-lg-5">
 		        <!-- Featured Project -->
-		        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+		        <div class="row  mb-4 mb-lg-5 align-items-center">
 		            <div class="col-xl-8 col-lg-7 border border-dark">
 		            	<a href="https://jameseronico.github.io/1stproject/#" target="_blank"><img class="img-fluid mb-3 mb-lg-0" src="./images/prj1.png" alt="..." /></a>
 		            </div>
@@ -176,7 +176,7 @@
 		        </div>
 		        <!-- ========== Memoirs ========= -->
 
-		        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center bg-dark">
+		        <div class="row  mb-5 mb-lg-0 justify-content-center bg-dark">
 		        	<small class="text-light">~Since I dont have that many projects yet, I'd like to share some of my treasured moments during my boot camp~</small>
 		            <div class="col-lg-6 pt-1"><img class="img-fluid" src="./images/Bootstrap.png" alt="..." /></div>
 		            <div class="col-lg-6">
@@ -191,7 +191,7 @@
 		                </div>
 		            </div>
 		        </div>
-		        <div class="row gx-0 justify-content-center bg-dark mb-5">
+		        <div class="row  justify-content-center bg-dark mb-5">
 		            <div class="col-lg-6 pb-1"><img class="img-fluid" src="./images/CSS.png" alt="..." /></div>
 		            <div class="col-lg-6 order-lg-first">
 		                <div class="bg-black text-center h-100 project">
@@ -261,13 +261,10 @@
 				<p class="text-light">©James Marvin Eronico</p>
 			</div>
 			<div class="ml-md-5 mr-md-5">
-				<a href="https://www.linkedin.com/in/james-marvin-eronico-1a93a5266/"><img src="./images/linkedin.png" width="30" class="img-fluid" target="_blank"></a>				
+				<a href="https://www.linkedin.com/in/james-marvin-eronico-1a93a5266/" target="_blank"><img src="./images/linkedin.png" width="30" class="img-fluid" target="_blank"></a>				
         	</div>
-        	<!-- <div class="l-md-5 mr-md-5">				
-				<a href="https://mail.google.com/mail/u/1/?ogbl#inbox"><img src="./images/gmail.png" width="30" class="img-fluid" target="_blank"></a>
-        	</div> -->
         	<div class="l-md-5 mr-md-5">
-				<a href="https://www.facebook.com/james.marvin.921230"><img src="./images/fb.png" width="30" class="img-fluid" target="_blank"></a>
+				<a href="https://www.facebook.com/james.marvin.921230" target="_blank"><img src="./images/fb.png" width="30" class="img-fluid" target="_blank"></a>
         	</div>
         	<div class="mr-md-5">
 				<a href="#" class="text-light">Back to top</a>
@@ -288,8 +285,3 @@
 <!-- https://jameseronico.github.io/1stproject/# -->
 <!-- ©James Marvin Eronico -->
 
-<!-- <div class="col-6 d-flex flex-column py-5 my-5">
-				<a href="https://www.linkedin.com/in/james-marvin-eronico-1a93a5266/"><img src="./images/linkedin.png">Linkedin</a>
-				<a href="https://mail.google.com/mail/u/1/?ogbl#inbox"><img src="./images/gmail.png">Gmail</a>
-				<a href="https://www.facebook.com/james.marvin.921230"><img src="./images/fb.png">Facebook</a>
-	        	</div> -->
